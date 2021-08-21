@@ -89,6 +89,7 @@ function calculation() {
     document.getElementById('total-price').innerText = parseInt(bestPrice) + parseInt(memoryCost) + parseInt(storageCost) + parseInt(deliveryCost);
 
     document.getElementById('total').innerText = document.getElementById('total-price').innerText;
+    document.getElementById('applyButton').removeAttribute('disabled');
 
 }
 // Bonus Mark
@@ -99,8 +100,11 @@ function applyBtn() {
         document.getElementById('discount-input').value = '';
         const total = parseInt(document.getElementById('total').innerText);
         document.getElementById('total').innerText = total - (total * 20 / 100);
+        document.getElementById('applyButton').setAttribute('disabled', true);
     }
     else {
+
         document.getElementById('discount-input').value = '';
+
     }
 }
