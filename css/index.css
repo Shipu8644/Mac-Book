@@ -1,0 +1,11 @@
+p.text-center{
+    border:2px solid cyan;
+}
+
+p.text-center:hover{
+border: 2px solid springgreen;   
+background-color: gray;
+color:white;
+border-radius: 5px;
+
+}
