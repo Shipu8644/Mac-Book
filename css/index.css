@@ -1,11 +1,40 @@
-p.text-center{
+button{
     border:2px solid cyan;
 }
 
-p.text-center:hover{
+button:hover{
 border: 2px solid springgreen;   
 background-color: gray;
 color:white;
 border-radius: 5px;
+}
 
+.hrStyle{
+    
+    border-top: 5px solid springgreen;
+     
+}
+.btn-style{
+    color: crimson;
+    padding: 2px 20px;
+}
+.distance1{
+    margin-left: 240px;
+   
+}
+.distance2{
+    margin-left: 170px;
+   
+}
+.distance3{
+    margin-left: 175px;
+   
+}
+.distance4{
+    margin-left: 190px;
+   
+}
+.distance5{
+    margin-left: 220px;
+   
 }
